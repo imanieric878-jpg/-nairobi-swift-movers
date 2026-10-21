@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <defs>
+        <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#242273"/>
+            <stop offset="100%" stop-color="#141340"/>
+        </linearGradient>
+        <linearGradient id="favPink" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff429e"/>
+            <stop offset="100%" stop-color="#e01275"/>
+        </linearGradient>
+    </defs>
+    <!-- Background rounded squircle -->
+    <rect width="128" height="128" rx="28" fill="url(#favBg)"/>
+    
+    <!-- Moving Swift Truck Badge -->
+    <g transform="translate(14, 28)">
+        <!-- Speed trails -->
+        <path d="M 0 32 L 20 32" stroke="#ff429e" stroke-width="4.5" stroke-linecap="round" opacity="0.85"/>
+        <path d="M -4 46 L 16 46" stroke="#ff429e" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M 2 60 L 20 60" stroke="#ff429e" stroke-width="4.5" stroke-linecap="round" opacity="0.85"/>
+        
+        <!-- Truck Body -->
+        <rect x="22" y="16" width="44" height="46" rx="7" fill="#ffffff"/>
+        
+        <!-- Truck Cab -->
+        <path d="M 66 32 L 82 32 C 86 32 89 35 91 39 L 95 49 C 96 51 97 53 97 55 L 97 62 C 97 64 95 66 93 66 L 66 66 Z" fill="url(#favPink)"/>
+        <!-- Cab Window -->
+        <path d="M 70 38 L 81 38 L 88 49 L 70 49 Z" fill="#141340"/>
+        
+        <!-- Swift Box in body -->
+        <path d="M 36 26 L 58 39 L 40 53 Z" fill="url(#favPink)"/>
+        
+        <!-- Wheels -->
+        <circle cx="36" cy="65" r="10" fill="#141340" stroke="#ffffff" stroke-width="3"/>
+        <circle cx="36" cy="65" r="4" fill="#ff429e"/>
+        <circle cx="82" cy="65" r="10" fill="#141340" stroke="#ffffff" stroke-width="3"/>
+        <circle cx="82" cy="65" r="4" fill="#ff429e"/>
+    </g>
+</svg>

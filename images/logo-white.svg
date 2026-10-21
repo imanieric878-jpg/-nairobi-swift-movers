@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120">
+    <defs>
+        <linearGradient id="swiftGradWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff429e" />
+            <stop offset="100%" stop-color="#ff70b5" />
+        </linearGradient>
+    </defs>
+    <!-- Icon / Moving Badge -->
+    <g transform="translate(10, 15)">
+        <!-- Back speed trails -->
+        <path d="M 5 28 L 32 28" stroke="#ff429e" stroke-width="4.5" stroke-linecap="round" opacity="0.8"/>
+        <path d="M 0 45 L 26 45" stroke="#ff429e" stroke-width="4.5" stroke-linecap="round" opacity="1"/>
+        <path d="M 8 62 L 30 62" stroke="#ff429e" stroke-width="4.5" stroke-linecap="round" opacity="0.8"/>
+        
+        <!-- Truck Cab & Body -->
+        <rect x="28" y="16" width="46" height="48" rx="8" fill="#ffffff" />
+        <path d="M 74 32 L 92 32 C 96 32 99 35 101 39 L 106 50 C 107 52 108 55 108 57 L 108 64 C 108 66 106 68 104 68 L 74 68 Z" fill="url(#swiftGradWhite)" />
+        <path d="M 78 38 L 90 38 L 98 50 L 78 50 Z" fill="#141340" opacity="0.85" />
+        
+        <!-- Moving Swift Box in Body -->
+        <path d="M 40 30 L 62 30 L 52 50 L 32 50 Z" fill="#141340" opacity="0.15"/>
+        <path d="M 44 26 L 68 40 L 48 56 Z" fill="url(#swiftGradWhite)" opacity="0.95"/>
+
+        <!-- Wheels -->
+        <circle cx="44" cy="68" r="11" fill="#141340" stroke="#ffffff" stroke-width="3.5"/>
+        <circle cx="44" cy="68" r="4.5" fill="#ff429e" />
+        <circle cx="92" cy="68" r="11" fill="#141340" stroke="#ffffff" stroke-width="3.5"/>
+        <circle cx="92" cy="68" r="4.5" fill="#ff429e" />
+    </g>
+    
+    <!-- NairobiSwift Movers Typography -->
+    <g transform="translate(136, 20)">
+        <!-- Brand Name -->
+        <text x="0" y="44" font-family="'DM Sans', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="34" letter-spacing="-0.5" fill="#ffffff">NAIROBI<tspan fill="#ff429e">SWIFT</tspan></text>
+        <!-- Tagline / Subtitle -->
+        <text x="2" y="66" font-family="'DM Sans', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13.5" letter-spacing="3.5" fill="#a0aec0">MOVERS &amp; RELOCATIONS</text>
+    </g>
+</svg>
